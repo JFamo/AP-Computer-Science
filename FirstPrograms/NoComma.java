@@ -12,9 +12,11 @@ public class NoComma {
         
         //output
         for(int i = 0; i < inp.length(); i ++ ){
-            if(!(inp.charAt(i) == ',')){
+            if(!(inp.charAt(i) == '*')){
                System.out.print(inp.charAt(i)); 
             }
         }
+        
+        System.out.println("");
     }
 }
