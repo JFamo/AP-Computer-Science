@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Balloon
+comment0.text=\ Joshua\ Famous\r\n\ \ 09/13/2017\r\n\ \ Summer\ Practice\ Program\ 4\r\n\ \ This\ balloon\ class\ will\ be\ a\ fake\ balloon\ that\ has\ air,\ volume,\ surface\ area,\ radius.\r\n
+comment1.params=
+comment1.target=void\ Balloon()
+comment2.params=air
+comment2.target=void\ addAir(double)
+comment3.params=
+comment3.target=double\ getVolume()
+comment4.params=
+comment4.target=double\ getSurfaceArea()
+comment5.params=
+comment5.target=double\ getRadius()
+numComments=6
