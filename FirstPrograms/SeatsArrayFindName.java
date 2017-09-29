@@ -1,3 +1,10 @@
+/** Joshua Famous
+ *  09/29/2017
+ *  Period 4
+ *  Fall Arrays - Program 1
+ *  This program will take all the students in the class, and print all those names which begin with a certain letter.
+**/
+
 import java.util.Scanner;
 
 public class SeatsArrayFindName {
@@ -5,6 +12,7 @@ public class SeatsArrayFindName {
         //vars
         String[] chairs = new String[24];
         Scanner scan = new Scanner(System.in);
+        int num = 0;
         char find;
         
         //loop
@@ -22,12 +30,17 @@ public class SeatsArrayFindName {
         find = scan.next().charAt(0);
         
         for(int i = 0; i < chairs.length; i ++ ){
-            if((chairs[i].charAt(0)) == (find)){
-                
-                System.out.println("Chair " + (i+1) + " : " + chairs[i]);
-                
+            if(chairs[i].length() > 0){
+                if((chairs[i].charAt(0)) == (find)){
+                    
+                    System.out.println("Chair " + (i+1) + " : " + chairs[i]);
+                    num++;
+                    
+                }
             }
         }
+        
+        System.out.println("There were " + num + " students found!");
     }
     
     public static void output(String[] chairs){
