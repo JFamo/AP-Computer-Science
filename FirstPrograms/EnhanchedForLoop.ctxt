@@ -2,4 +2,14 @@
 comment0.target=EnhanchedForLoop
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
-numComments=2
+comment2.params=numbers
+comment2.target=double\ getRange(int[])
+comment3.params=numbers
+comment3.target=double\ getMedian(int[])
+comment4.params=numbers\ mean
+comment4.target=double\ getStdDev(int[],\ double)
+comment5.params=numbers
+comment5.target=int\ getMode(int[])
+comment6.params=numbers
+comment6.target=double\ getMean(int[])
+numComments=7
