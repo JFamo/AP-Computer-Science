@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Shape
+comment1.params=
+comment1.target=double\ area()
+comment2.params=p
+comment2.target=void\ draw(TurtleGraphics.Pen)
+comment3.params=
+comment3.target=double\ getXPos()
+comment4.params=
+comment4.target=double\ getYPos()
+comment5.params=xLoc\ yLoc
+comment5.target=void\ move(double,\ double)
+comment6.params=factor
+comment6.target=void\ stretchBy(double)
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment8.params=c
+comment8.target=void\ setColor(java.awt.Color)
+numComments=9

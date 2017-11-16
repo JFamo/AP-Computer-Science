@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=DistToLine
+comment0.text=\r\n\ \ Joshua\ Famous\r\n\ \ Period\ 4\r\n\ \ 11-7-2017\r\n\ \ This\ class\ will\ take\ the\ equation\ of\ a\ line\ as\ static\ variables,\ and\ using\ a\ static\ method\ with\ coordinate\ argument,\ return\ the\ distance\ from\ point\ to\ line.\r\n
+comment1.params=a\ b
+comment1.target=double\ getDist(double,\ double)
+numComments=2

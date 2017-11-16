@@ -16,7 +16,7 @@ public class PercentError {
         //convert
         for(String s : values){
             double[] newArray = new double[valuesD.length + 1];
-            newArray[n] = new double[valuesD.length + 1];
+            double[] n = new double[valuesD.length + 1];
         }
         
     }

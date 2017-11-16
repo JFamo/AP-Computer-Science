@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Circle
+comment1.params=
+comment1.target=Circle()
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment2.params=xLoc\ yLoc\ r
+comment2.target=Circle(double,\ double,\ double)
+comment3.params=
+comment3.target=double\ area()
+comment4.params=c
+comment4.target=void\ setColor(java.awt.Color)
+comment5.params=p
+comment5.target=void\ draw(TurtleGraphics.Pen)
+comment6.params=
+comment6.target=double\ getXPos()
+comment7.params=
+comment7.target=double\ getYPos()
+comment8.params=xLoc\ yLoc
+comment8.target=void\ move(double,\ double)
+comment9.params=factor
+comment9.target=void\ stretchBy(double)
+numComments=11

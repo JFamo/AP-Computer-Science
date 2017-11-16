@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Emoji
+comment1.params=xLoc\ yLoc\ c1\ c2\ e
+comment1.target=Emoji(int,\ int,\ java.awt.Color,\ java.awt.Color,\ java.lang.String)
+comment2.params=p
+comment2.target=void\ draw(TurtleGraphics.Pen)
+numComments=3

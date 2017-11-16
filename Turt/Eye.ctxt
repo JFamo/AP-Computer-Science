@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Eye
+comment1.params=
+comment1.target=Eye()
+comment10.params=
+comment10.target=double\ getY()
+comment11.params=xLoc\ yLoc
+comment11.target=void\ move(double,\ double)
+comment12.params=factor
+comment12.target=void\ stretchBy(double)
+comment2.params=xLoc\ yLoc\ r
+comment2.target=Eye(double,\ double,\ double)
+comment3.params=
+comment3.target=double\ area()
+comment4.params=c
+comment4.target=void\ setColor(java.awt.Color)
+comment5.params=c
+comment5.target=void\ setEyeColor(java.awt.Color)
+comment6.params=w
+comment6.target=void\ setWidth(int)
+comment7.params=
+comment7.target=double\ getWidth()
+comment8.params=p
+comment8.target=void\ draw(TurtleGraphics.Pen)
+comment9.params=
+comment9.target=double\ getX()
+numComments=13
