@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=CheckingAccount
+comment1.params=amount
+comment1.target=CheckingAccount(double)
+comment2.params=c
+comment2.target=void\ cashCheck(Check)
+numComments=3
