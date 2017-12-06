@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=n\ o\ b\ i
+comment0.target=CheckingAccount(java.lang.String,\ User,\ double,\ double)
+comment1.params=checkNumber
+comment1.target=void\ cashCheck(int)
+comment2.params=checkNumber\ amount
+comment2.target=boolean\ writeCheck(int,\ double)
+numComments=3
