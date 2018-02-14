@@ -1,4 +1,4 @@
-public class BankAccount{
+abstract public class BankAccount{
     
     public BankAccount(double amt){
         balance = amt;

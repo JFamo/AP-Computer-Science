@@ -1,12 +1,12 @@
 public class Tester{
     public static void main(String args[]){
-        SavingsAccount myAccount = new SavingsAccount(200,5);
-        myAccount.deposit(132.14);
-        myAccount.addInterest();
-        System.out.println("The final balance is " + myAccount.getBalance());
-        CheckingAccount c = new CheckingAccount(10);
-        Check c1 = new Check(2,5);
-        c.cashCheck(c1);
-        System.out.println("The final balance is " + c.getBalance());
+        //create a checking account
+        CheckingAccount acc = new CheckingAccount(100);
+        //create a new check with number 10105 and amount $25
+        Check myCheck1 = new Check(10105,25);
+        //cash the check
+        acc.cashCheck(myCheck1);
+        //print the result
+        System.out.println("The final balance is " + acc.getBalance());
     }
 }
