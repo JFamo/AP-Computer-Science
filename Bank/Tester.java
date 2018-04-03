@@ -1,7 +1,7 @@
 public class Tester{
     public static void main(String args[]){
         //create a checking account
-        CheckingAccount acc = new CheckingAccount(100);
+        CheckingAccount acc = new CheckingAccount(100, "John Doe");
         //create a new check with number 10105 and amount $25
         Check myCheck1 = new Check(10105,25);
         //cash the check

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Hanoi
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=ring\ i\ j\ k
+comment2.target=void\ placePeg(int,\ int,\ int,\ int)
+comment3.params=
+comment3.target=void\ populateRingNums()
+comment4.params=
+comment4.target=void\ displayPegs()
+comment5.params=pegCheck\ thisRing
+comment5.target=int\ getSpacesAbove(int,\ int)
+numComments=6

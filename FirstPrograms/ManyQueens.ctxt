@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ManyQueens
+comment1.params=w\ h
+comment1.target=void\ getPlacement(int,\ int)
+comment2.params=col
+comment2.target=boolean\ placeSafeQueen(int)
+comment3.params=row\ col
+comment3.target=boolean\ isSafe(int,\ int)
+comment4.params=
+comment4.target=void\ printBoard()
+numComments=5

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=GUI_project
+comment1.params=
+comment1.target=GUI_project()
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=public\ void\ generateMenu(){\r\n\t\tmenuBar\ \=\ new\ JMenuBar();\r\n\r\n\t\tJMenu\ file\ \=\ new\ JMenu("File");\r\n\t\tJMenu\ tools\ \=\ new\ JMenu("Tools");\r\n\t\tJMenu\ help\ \=\ new\ JMenu("Help");\r\n\r\n\t\tJMenuItem\ open\ \=\ new\ JMenuItem("Open\ \ \ ");\r\n\t\tJMenuItem\ save\ \=\ new\ JMenuItem("Save\ \ \ ");\r\n\t\tJMenuItem\ exit\ \=\ new\ JMenuItem("Exit\ \ \ ");\r\n\t\tJMenuItem\ preferences\ \=\ new\ JMenuItem("Preferences\ \ \ ");\r\n\t\tJMenuItem\ about\ \=\ new\ JMenuItem("About\ \ \ ");\r\n\r\n\r\n\t\tfile.add(open);\r\n\t\tfile.add(save);\r\n\t\tfile.addSeparator();\r\n\t\tfile.add(exit);\r\n\t\ttools.add(preferences);\r\n\t\thelp.add(about);\r\n\r\n\t\tmenuBar.add(file);\r\n\t\tmenuBar.add(tools);\r\n\t\tmenuBar.add(help);\r\n}*
+comment3.params=
+comment3.target=void\ run()
+numComments=4

@@ -1,7 +1,7 @@
 public class SavingsAccount extends BankAccount{
     
-    public SavingsAccount(double amount, double rate){
-        super(amount);
+    public SavingsAccount(double amount, String nm, double rate){
+        super(amount, nm);
         interestRate = rate;
     }
     
