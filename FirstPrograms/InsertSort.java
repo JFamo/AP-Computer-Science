@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class BubbleSort {
+public class InsertSort {
     public static void main(String args[]){
         //vars
         Scanner scan = new Scanner(System.in);
@@ -17,23 +17,29 @@ public class BubbleSort {
         }
         
         //loop
-        bubble(values);
+        insert(values);
     }
     
-    public static int[] bubble(int[] values){
-        boolean loop;
-        do{
-            loop = false;
-            for(int i = 0; i < values.length-1; i ++){
-                if(values[i] > values[i+1]){
-                    int temp = values[i];
-                    values[i] = values[i+1];
-                    values[i+1] = temp;
-                    loop = true;
+    public static int[] insert(int[] values){
+        for(int i = 1; i < values.length; i ++){
+            int k = i - 1;
+            int item = values[i];
+            boolean stop = false;
+            while(k >= 0 && !stop){
+                if(item < values[k]){
+                    values[k + 1] = values[k];
+                    k--;
+                    if(k == -1){
+                        values[0] = item;
+                    }
+                }
+                else{
+                    values[k + 1] = item;
+                    stop = true;
                 }
             }
             printArray(values);
-        }while(loop);
+        }
         return values;
     }
     

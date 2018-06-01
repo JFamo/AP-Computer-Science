@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class BubbleSort {
+public class SelectionSort {
     public static void main(String args[]){
         //vars
         Scanner scan = new Scanner(System.in);
@@ -17,23 +17,23 @@ public class BubbleSort {
         }
         
         //loop
-        bubble(values);
+        selection(values);
     }
     
-    public static int[] bubble(int[] values){
-        boolean loop;
-        do{
-            loop = false;
-            for(int i = 0; i < values.length-1; i ++){
-                if(values[i] > values[i+1]){
-                    int temp = values[i];
-                    values[i] = values[i+1];
-                    values[i+1] = temp;
-                    loop = true;
+    public static int[] selection(int[] values){
+        for(int i = 0; i < values.length-1; i ++){
+            //find the smallest remaining
+            int min = values[i], mindex = i;
+            for(int j = i; j < values.length; j++){
+                if(values[j] < min){
+                    mindex = j;
+                    min = values[j];
                 }
             }
+            values[mindex] = values[i];
+            values[i] = min;
             printArray(values);
-        }while(loop);
+        }
         return values;
     }
     
